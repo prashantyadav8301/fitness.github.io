@@ -1,0 +1,112 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('../img/agra.jpg');
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 0px;
+    top: 20px;
+}
+
+.left div {
+    text-align: center;
+    font-size: 15px;
+    line-height: 0px;
+}
+
+.left img {
+    padding: 0px 63px;
+    width: 60px;
+    filter: invert(100%);
+}
+
+.mid {
+    display: block;
+    width: 36%;
+    margin: 20px auto;
+    /* border: 2px solid rgb(14, 108, 216); */
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid rgb(241, 220, 26); */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(253, 33, 169)
+}
+
+.btn {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 100px 50px;
+    padding: 15px 15px;
+    width: 28%;
+    border-radius: 10px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 3px auto;
+    font-size: 18px;
+}
+
+.container h1 {
+    margin: 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container button {
+    width: 60%;
+    margin: 33px auto;
+    display: block;
+}
