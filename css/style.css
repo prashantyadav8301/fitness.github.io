@@ -4,33 +4,49 @@ body {
     margin: 0px;
     padding: 0px;
     background: url('../img/agra.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    overflow: hidden;
 }
+
+/* Responsive Background image */
+
+/* body {
+    background: url('../img/agra.jpg');
+    font-family: 'Baloo Bhai 2', cursive;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position: center center;
+    background-size: cover;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+} */
 
 .left {
     display: inline-block;
-    /* border: 2px solid red; */
     position: absolute;
     left: 0px;
     top: 20px;
 }
 
-.left div {
+.left h4 {
     text-align: center;
-    font-size: 15px;
-    line-height: 0px;
 }
 
 .left img {
     padding: 0px 63px;
     width: 60px;
     filter: invert(100%);
+
 }
 
 .mid {
     display: block;
     width: 36%;
     margin: 20px auto;
-    /* border: 2px solid rgb(14, 108, 216); */
 
 }
 
@@ -39,7 +55,7 @@ body {
     right: 34px;
     top: 20px;
     display: inline-block;
-    /* border: 2px solid rgb(241, 220, 26); */
+    text-align: center;
 }
 
 .navbar {
@@ -54,7 +70,7 @@ body {
 .navbar li a {
     color: white;
     text-decoration: none;
-    padding: 0px 10px;
+    margin: 0px 10px;
 }
 
 .navbar li a:hover,
@@ -109,4 +125,77 @@ body {
     width: 60%;
     margin: 33px auto;
     display: block;
+}
+
+@media screen and (max-width:396px) {
+    .left {
+        height: 15vh;
+        margin: 40px 30vw;
+        text-align: center;
+        /* border: 2px solid hotpink; */
+    }
+
+    .left img {
+        width: 40px;
+        /* border: 2px solid rgb(241, 220, 26); */
+    }
+
+    .left h4 {
+        margin-top: 0px;
+        /* border: 2px solid rgb(241, 220, 26); */
+    }
+
+    .mid {
+        width: 99%;
+        /* border: 2px solid rgb(241, 220, 26); */
+    }
+
+    .mid .navbar {
+        margin: 0 27px;
+        padding-left: 0;
+        /* border: 2px solid rgb(212, 85, 11); */
+    }
+
+    .navbar li a {
+        margin-left: 0;
+        padding-left: 0;
+        font-size: 15px;
+    }
+
+    .right {
+        top: 90vh;
+        left: 30px;
+        margin: 0 auto;
+        /* border: 2px solid rgb(241, 220, 26); */
+    }
+
+    .right .btn {
+        font-size: 15px;
+        /* border: 2px solid rgb(241, 220, 26); */
+    }
+
+    .container {
+        margin: 18vh auto;
+        padding: 15px;
+        width: 80vw;
+        border-radius: 10px;
+        /* border: 2px solid white; */
+    }
+
+    .container h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        /* border: 2px solid pink; */
+    }
+
+    form .form-group input {
+        width: 60vw;
+        outline: none;
+        /* border: 2px solid red; */
+    }
+
+    .container form {
+        padding-top: 20px;
+        /* border: 2px solid hotpink; */
+    }
 }
