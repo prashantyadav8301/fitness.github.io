@@ -163,7 +163,7 @@ body {
     }
 
     .right {
-        top: 90vh;
+        top: 80vh;
         left: 30px;
         margin: 0 auto;
         /* border: 2px solid rgb(241, 220, 26); */
@@ -179,23 +179,25 @@ body {
         padding: 15px;
         width: 80vw;
         border-radius: 10px;
-        /* border: 2px solid white; */
     }
 
     .container h1 {
         font-size: 20px;
-        margin-bottom: 20px;
-        /* border: 2px solid pink; */
+        margin-bottom: 10px;
     }
 
     form .form-group input {
         width: 60vw;
         outline: none;
-        /* border: 2px solid red; */
     }
 
     .container form {
-        padding-top: 20px;
-        /* border: 2px solid hotpink; */
+        padding-top: 10px;
+    }
+
+    .container button {
+        width: 50%;
+        margin: 10px auto;
+        display: block;
     }
 }
